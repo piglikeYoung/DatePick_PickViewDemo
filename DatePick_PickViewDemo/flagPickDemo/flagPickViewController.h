@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface flagPickViewController : UIViewController
+@interface FlagPickViewController : UIViewController
 
 @end

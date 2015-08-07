@@ -54,7 +54,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Hn3-BA-ZQ2" kind="show" id="Zg7-ZF-XPJ"/>
+                                    <segue destination="RmC-PQ-xLm" kind="show" id="Y9k-op-NQQ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -76,23 +76,111 @@
             </objects>
             <point key="canvasLocation" x="969" y="-326"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="QD2-dW-7yV">
+        <!--Menu Select View Controller-->
+        <scene sceneID="hz6-Ar-bbF">
             <objects>
-                <viewController id="Hn3-BA-ZQ2" sceneMemberID="viewController">
+                <viewController id="RmC-PQ-xLm" customClass="MenuSelectViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="yWZ-lR-qtU"/>
-                        <viewControllerLayoutGuide type="bottom" id="jCr-CB-uMR"/>
+                        <viewControllerLayoutGuide type="top" id="MtM-zs-1tc"/>
+                        <viewControllerLayoutGuide type="bottom" id="uxV-wU-6Vb"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="jLV-yd-a04">
+                    <view key="view" contentMode="scaleToFill" id="omn-Wb-7yU">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dhf-A8-m37">
+                                <rect key="frame" x="102" y="114" width="30" height="30"/>
+                                <state key="normal" title="随机">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="randomFood:" destination="RmC-PQ-xLm" eventType="touchUpInside" id="HJE-N3-hsH"/>
+                                </connections>
+                            </button>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eEi-sN-pg1">
+                                <rect key="frame" x="10" y="169" width="580" height="162"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="RmC-PQ-xLm" id="cgW-Ed-xUT"/>
+                                    <outlet property="delegate" destination="RmC-PQ-xLm" id="j5j-NX-jf1"/>
+                                </connections>
+                            </pickerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="水果" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DKy-pl-sQW">
+                                <rect key="frame" x="58" y="397.5" width="34" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vCZ-Vv-VG4">
+                                <rect key="frame" x="154" y="437" width="70" height="20.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="Kao-yI-gMz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5wz-Jn-UPV">
+                                <rect key="frame" x="154" y="493.5" width="70" height="20.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="vlq-Ax-Hgu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="饮料" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="USZ-Du-Vxc">
+                                <rect key="frame" x="58" y="493.5" width="34" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="蔬菜" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EFg-eJ-sR2">
+                                <rect key="frame" x="58" y="437" width="34" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0H4-pD-k31">
+                                <rect key="frame" x="154" y="391.5" width="70" height="20.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="ToL-3q-Fmf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="USZ-Du-Vxc" firstAttribute="leading" secondItem="omn-Wb-7yU" secondAttribute="leadingMargin" constant="42" id="15B-fN-UfB"/>
+                            <constraint firstItem="0H4-pD-k31" firstAttribute="leading" secondItem="DKy-pl-sQW" secondAttribute="trailing" constant="62" id="6eV-7L-fOB"/>
+                            <constraint firstItem="5wz-Jn-UPV" firstAttribute="top" secondItem="vCZ-Vv-VG4" secondAttribute="bottom" constant="36" id="Csp-7v-OPv"/>
+                            <constraint firstItem="dhf-A8-m37" firstAttribute="top" secondItem="MtM-zs-1tc" secondAttribute="bottom" constant="50" id="Jx2-iM-3TO"/>
+                            <constraint firstItem="EFg-eJ-sR2" firstAttribute="top" secondItem="DKy-pl-sQW" secondAttribute="bottom" constant="19" id="Kx8-fc-fwL"/>
+                            <constraint firstItem="vCZ-Vv-VG4" firstAttribute="top" secondItem="0H4-pD-k31" secondAttribute="bottom" constant="25" id="Lv8-7x-GV2"/>
+                            <constraint firstItem="5wz-Jn-UPV" firstAttribute="leading" secondItem="USZ-Du-Vxc" secondAttribute="trailing" constant="62" id="NT1-OK-lNN"/>
+                            <constraint firstItem="uxV-wU-6Vb" firstAttribute="top" secondItem="USZ-Du-Vxc" secondAttribute="bottom" constant="86" id="Rb7-De-NoQ"/>
+                            <constraint firstItem="vCZ-Vv-VG4" firstAttribute="leading" secondItem="EFg-eJ-sR2" secondAttribute="trailing" constant="62" id="Wyz-E3-CKd"/>
+                            <constraint firstAttribute="trailing" secondItem="eEi-sN-pg1" secondAttribute="trailing" constant="10" id="ZXA-rm-gO9"/>
+                            <constraint firstItem="uxV-wU-6Vb" firstAttribute="top" secondItem="5wz-Jn-UPV" secondAttribute="bottom" constant="86" id="ZyT-r4-tt5"/>
+                            <constraint firstItem="DKy-pl-sQW" firstAttribute="leading" secondItem="omn-Wb-7yU" secondAttribute="leadingMargin" constant="42" id="jUp-6T-1bJ"/>
+                            <constraint firstItem="USZ-Du-Vxc" firstAttribute="top" secondItem="EFg-eJ-sR2" secondAttribute="bottom" constant="36" id="jxb-iB-u5q"/>
+                            <constraint firstItem="eEi-sN-pg1" firstAttribute="leading" secondItem="omn-Wb-7yU" secondAttribute="leading" constant="10" id="oIB-ZI-QGO"/>
+                            <constraint firstItem="EFg-eJ-sR2" firstAttribute="leading" secondItem="omn-Wb-7yU" secondAttribute="leadingMargin" constant="42" id="rZh-r7-HFt"/>
+                            <constraint firstItem="eEi-sN-pg1" firstAttribute="top" secondItem="dhf-A8-m37" secondAttribute="bottom" constant="25" id="tnm-ir-1Dy"/>
+                            <constraint firstItem="dhf-A8-m37" firstAttribute="leading" secondItem="omn-Wb-7yU" secondAttribute="leadingMargin" constant="86" id="zNt-k5-pGh"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="drinkLabel" destination="5wz-Jn-UPV" id="EQC-aD-bae"/>
+                        <outlet property="fruitLabel" destination="0H4-pD-k31" id="dmy-St-DK8"/>
+                        <outlet property="pickerView" destination="eEi-sN-pg1" id="iUA-hd-XN7"/>
+                        <outlet property="stapleLabel" destination="vCZ-Vv-VG4" id="GdB-6Y-zdp"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="265-Lz-1CN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l9v-Co-Lys" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="969" y="378"/>
+            <point key="canvasLocation" x="985" y="336"/>
         </scene>
         <!--Date Pick View Controller-->
         <scene sceneID="nyG-ZO-UGq">
@@ -131,7 +219,7 @@
         <!--Flag Pick View Controller-->
         <scene sceneID="NKd-u7-ojV">
             <objects>
-                <viewController id="zHE-MD-CLW" customClass="flagPickViewController" sceneMemberID="viewController">
+                <viewController id="zHE-MD-CLW" customClass="FlagPickViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="k3g-PN-GOw"/>
                         <viewControllerLayoutGuide type="bottom" id="R1X-Q1-2OZ"/>

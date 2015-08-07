@@ -15,7 +15,7 @@
 		7D57B1381B74A56B0011FE73 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D57B1361B74A56B0011FE73 /* LaunchScreen.xib */; };
 		7D57B1441B74A56B0011FE73 /* DatePick_PickViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D57B1431B74A56B0011FE73 /* DatePick_PickViewDemoTests.m */; };
 		7D57B1501B74A7000011FE73 /* DatePickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D57B14F1B74A7000011FE73 /* DatePickViewController.m */; };
-		7D57B1541B74ACBD0011FE73 /* flagPickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D57B1531B74ACBD0011FE73 /* flagPickViewController.m */; };
+		7D57B1541B74ACBD0011FE73 /* FlagPickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D57B1531B74ACBD0011FE73 /* FlagPickViewController.m */; };
 		7D57B1671B74AD170011FE73 /* agt.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7D57B1581B74AD170011FE73 /* agt.gif */; };
 		7D57B1681B74AD170011FE73 /* baxi.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7D57B1591B74AD170011FE73 /* baxi.gif */; };
 		7D57B1691B74AD170011FE73 /* deguo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7D57B15A1B74AD170011FE73 /* deguo.gif */; };
@@ -37,6 +37,8 @@
 		7DE4636F1B74AF7E0031525B /* cities.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7DE4636E1B74AF7E0031525B /* cities.plist */; };
 		7DE463721B74AF920031525B /* CitySelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE463711B74AF920031525B /* CitySelectViewController.m */; };
 		7DE463751B74AFA00031525B /* JHProvince.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE463741B74AFA00031525B /* JHProvince.m */; };
+		7DE463791B74B0C50031525B /* MenuSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE463781B74B0C50031525B /* MenuSelectViewController.m */; };
+		7DE4637B1B74B2710031525B /* foods.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7DE4637A1B74B2710031525B /* foods.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,8 +67,8 @@
 		7D57B1431B74A56B0011FE73 /* DatePick_PickViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DatePick_PickViewDemoTests.m; sourceTree = "<group>"; };
 		7D57B14E1B74A7000011FE73 /* DatePickViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePickViewController.h; sourceTree = "<group>"; };
 		7D57B14F1B74A7000011FE73 /* DatePickViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePickViewController.m; sourceTree = "<group>"; };
-		7D57B1521B74ACBD0011FE73 /* flagPickViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = flagPickViewController.h; sourceTree = "<group>"; };
-		7D57B1531B74ACBD0011FE73 /* flagPickViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = flagPickViewController.m; sourceTree = "<group>"; };
+		7D57B1521B74ACBD0011FE73 /* FlagPickViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlagPickViewController.h; sourceTree = "<group>"; };
+		7D57B1531B74ACBD0011FE73 /* FlagPickViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlagPickViewController.m; sourceTree = "<group>"; };
 		7D57B1581B74AD170011FE73 /* agt.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = agt.gif; sourceTree = "<group>"; };
 		7D57B1591B74AD170011FE73 /* baxi.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = baxi.gif; sourceTree = "<group>"; };
 		7D57B15A1B74AD170011FE73 /* deguo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = deguo.gif; sourceTree = "<group>"; };
@@ -92,6 +94,9 @@
 		7DE463711B74AF920031525B /* CitySelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CitySelectViewController.m; sourceTree = "<group>"; };
 		7DE463731B74AFA00031525B /* JHProvince.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHProvince.h; sourceTree = "<group>"; };
 		7DE463741B74AFA00031525B /* JHProvince.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHProvince.m; sourceTree = "<group>"; };
+		7DE463771B74B0C50031525B /* MenuSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuSelectViewController.h; sourceTree = "<group>"; };
+		7DE463781B74B0C50031525B /* MenuSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuSelectViewController.m; sourceTree = "<group>"; };
+		7DE4637A1B74B2710031525B /* foods.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = foods.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +138,7 @@
 		7D57B1261B74A56B0011FE73 /* DatePick_PickViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				7DE463761B74B0760031525B /* menuSelectDemo */,
 				7DE4636D1B74AF360031525B /* CitySelectDemo */,
 				7D57B1511B74AC5D0011FE73 /* flagPickDemo */,
 				7D57B14D1B74A6C70011FE73 /* datePickDemo */,
@@ -153,6 +159,7 @@
 			children = (
 				7D57B1571B74AD170011FE73 /* guoqi */,
 				7DE4636E1B74AF7E0031525B /* cities.plist */,
+				7DE4637A1B74B2710031525B /* foods.plist */,
 				7D57B1281B74A56B0011FE73 /* Info.plist */,
 				7D57B1291B74A56B0011FE73 /* main.m */,
 			);
@@ -188,8 +195,8 @@
 		7D57B1511B74AC5D0011FE73 /* flagPickDemo */ = {
 			isa = PBXGroup;
 			children = (
-				7D57B1521B74ACBD0011FE73 /* flagPickViewController.h */,
-				7D57B1531B74ACBD0011FE73 /* flagPickViewController.m */,
+				7D57B1521B74ACBD0011FE73 /* FlagPickViewController.h */,
+				7D57B1531B74ACBD0011FE73 /* FlagPickViewController.m */,
 				7D57B1761B74AD450011FE73 /* JHCountryView.h */,
 				7D57B1771B74AD450011FE73 /* JHCountryView.m */,
 				7D57B1781B74AD450011FE73 /* JHCountryView.xib */,
@@ -230,6 +237,15 @@
 				7DE463741B74AFA00031525B /* JHProvince.m */,
 			);
 			path = CitySelectDemo;
+			sourceTree = "<group>";
+		};
+		7DE463761B74B0760031525B /* menuSelectDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7DE463771B74B0C50031525B /* MenuSelectViewController.h */,
+				7DE463781B74B0C50031525B /* MenuSelectViewController.m */,
+			);
+			path = menuSelectDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -313,6 +329,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D57B1331B74A56B0011FE73 /* Main.storyboard in Resources */,
+				7DE4637B1B74B2710031525B /* foods.plist in Resources */,
 				7D57B16C1B74AD170011FE73 /* hanguo.gif in Resources */,
 				7D57B1691B74AD170011FE73 /* deguo.gif in Resources */,
 				7DE4636F1B74AF7E0031525B /* cities.plist in Resources */,
@@ -349,11 +366,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D57B1541B74ACBD0011FE73 /* flagPickViewController.m in Sources */,
+				7D57B1541B74ACBD0011FE73 /* FlagPickViewController.m in Sources */,
 				7D57B17C1B74AD450011FE73 /* JHCountryView.m in Sources */,
 				7D57B17F1B74AD450011FE73 /* NJCountry.m in Sources */,
 				7D57B1301B74A56B0011FE73 /* ViewController.m in Sources */,
 				7D57B12D1B74A56B0011FE73 /* AppDelegate.m in Sources */,
+				7DE463791B74B0C50031525B /* MenuSelectViewController.m in Sources */,
 				7DE463721B74AF920031525B /* CitySelectViewController.m in Sources */,
 				7D57B12A1B74A56B0011FE73 /* main.m in Sources */,
 				7DE463751B74AFA00031525B /* JHProvince.m in Sources */,

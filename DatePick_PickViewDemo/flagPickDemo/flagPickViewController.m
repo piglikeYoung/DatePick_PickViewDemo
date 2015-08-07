@@ -6,18 +6,18 @@
 //  Copyright (c) 2015年 piglikeyoung. All rights reserved.
 //
 
-#import "flagPickViewController.h"
+#import "FlagPickViewController.h"
 #import "NJCountry.h"
 #import "JHCountryView.h"
 
-@interface flagPickViewController ()<UIPickerViewDataSource,UIPickerViewDelegate>
+@interface FlagPickViewController ()<UIPickerViewDataSource,UIPickerViewDelegate>
 
 // 保存所有国家信息
 @property (strong , nonatomic) NSArray *countrys;
 
 @end
 
-@implementation flagPickViewController
+@implementation FlagPickViewController
 
 #pragma mark - 懒加载
 - (NSArray *)countrys
