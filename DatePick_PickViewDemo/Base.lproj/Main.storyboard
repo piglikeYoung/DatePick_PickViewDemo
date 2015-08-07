@@ -120,6 +120,9 @@
                             <constraint firstAttribute="trailingMargin" secondItem="K2n-p5-CVj" secondAttribute="trailing" constant="30" id="thA-71-3q2"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="textField" destination="K2n-p5-CVj" id="wKH-Sk-jjq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oEN-KJ-S4G" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
