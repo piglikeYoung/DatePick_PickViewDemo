@@ -15,6 +15,25 @@
 		7D57B1381B74A56B0011FE73 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D57B1361B74A56B0011FE73 /* LaunchScreen.xib */; };
 		7D57B1441B74A56B0011FE73 /* DatePick_PickViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D57B1431B74A56B0011FE73 /* DatePick_PickViewDemoTests.m */; };
 		7D57B1501B74A7000011FE73 /* DatePickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D57B14F1B74A7000011FE73 /* DatePickViewController.m */; };
+		7D57B1541B74ACBD0011FE73 /* flagPickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D57B1531B74ACBD0011FE73 /* flagPickViewController.m */; };
+		7D57B1671B74AD170011FE73 /* agt.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7D57B1581B74AD170011FE73 /* agt.gif */; };
+		7D57B1681B74AD170011FE73 /* baxi.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7D57B1591B74AD170011FE73 /* baxi.gif */; };
+		7D57B1691B74AD170011FE73 /* deguo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7D57B15A1B74AD170011FE73 /* deguo.gif */; };
+		7D57B16A1B74AD170011FE73 /* faguo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7D57B15B1B74AD170011FE73 /* faguo.gif */; };
+		7D57B16B1B74AD170011FE73 /* flags.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7D57B15C1B74AD170011FE73 /* flags.plist */; };
+		7D57B16C1B74AD170011FE73 /* hanguo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7D57B15D1B74AD170011FE73 /* hanguo.gif */; };
+		7D57B16D1B74AD170011FE73 /* helan.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7D57B15E1B74AD170011FE73 /* helan.gif */; };
+		7D57B16E1B74AD170011FE73 /* putaoya.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7D57B15F1B74AD170011FE73 /* putaoya.gif */; };
+		7D57B16F1B74AD170011FE73 /* ruidian.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7D57B1601B74AD170011FE73 /* ruidian.gif */; };
+		7D57B1701B74AD170011FE73 /* ruishi.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7D57B1611B74AD170011FE73 /* ruishi.gif */; };
+		7D57B1711B74AD170011FE73 /* wlgui.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7D57B1621B74AD170011FE73 /* wlgui.gif */; };
+		7D57B1721B74AD170011FE73 /* xiby.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7D57B1631B74AD170011FE73 /* xiby.gif */; };
+		7D57B1731B74AD170011FE73 /* ydl.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7D57B1641B74AD170011FE73 /* ydl.gif */; };
+		7D57B1741B74AD170011FE73 /* ying.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7D57B1651B74AD170011FE73 /* ying.gif */; };
+		7D57B1751B74AD170011FE73 /* zhongguo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7D57B1661B74AD170011FE73 /* zhongguo.jpg */; };
+		7D57B17C1B74AD450011FE73 /* JHCountryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D57B1771B74AD450011FE73 /* JHCountryView.m */; };
+		7D57B17D1B74AD450011FE73 /* JHCountryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D57B1781B74AD450011FE73 /* JHCountryView.xib */; };
+		7D57B17F1B74AD450011FE73 /* NJCountry.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D57B17B1B74AD450011FE73 /* NJCountry.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +62,28 @@
 		7D57B1431B74A56B0011FE73 /* DatePick_PickViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DatePick_PickViewDemoTests.m; sourceTree = "<group>"; };
 		7D57B14E1B74A7000011FE73 /* DatePickViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePickViewController.h; sourceTree = "<group>"; };
 		7D57B14F1B74A7000011FE73 /* DatePickViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePickViewController.m; sourceTree = "<group>"; };
+		7D57B1521B74ACBD0011FE73 /* flagPickViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = flagPickViewController.h; sourceTree = "<group>"; };
+		7D57B1531B74ACBD0011FE73 /* flagPickViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = flagPickViewController.m; sourceTree = "<group>"; };
+		7D57B1581B74AD170011FE73 /* agt.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = agt.gif; sourceTree = "<group>"; };
+		7D57B1591B74AD170011FE73 /* baxi.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = baxi.gif; sourceTree = "<group>"; };
+		7D57B15A1B74AD170011FE73 /* deguo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = deguo.gif; sourceTree = "<group>"; };
+		7D57B15B1B74AD170011FE73 /* faguo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = faguo.gif; sourceTree = "<group>"; };
+		7D57B15C1B74AD170011FE73 /* flags.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = flags.plist; sourceTree = "<group>"; };
+		7D57B15D1B74AD170011FE73 /* hanguo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = hanguo.gif; sourceTree = "<group>"; };
+		7D57B15E1B74AD170011FE73 /* helan.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = helan.gif; sourceTree = "<group>"; };
+		7D57B15F1B74AD170011FE73 /* putaoya.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = putaoya.gif; sourceTree = "<group>"; };
+		7D57B1601B74AD170011FE73 /* ruidian.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ruidian.gif; sourceTree = "<group>"; };
+		7D57B1611B74AD170011FE73 /* ruishi.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ruishi.gif; sourceTree = "<group>"; };
+		7D57B1621B74AD170011FE73 /* wlgui.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = wlgui.gif; sourceTree = "<group>"; };
+		7D57B1631B74AD170011FE73 /* xiby.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = xiby.gif; sourceTree = "<group>"; };
+		7D57B1641B74AD170011FE73 /* ydl.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ydl.gif; sourceTree = "<group>"; };
+		7D57B1651B74AD170011FE73 /* ying.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ying.gif; sourceTree = "<group>"; };
+		7D57B1661B74AD170011FE73 /* zhongguo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zhongguo.jpg; sourceTree = "<group>"; };
+		7D57B1761B74AD450011FE73 /* JHCountryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHCountryView.h; sourceTree = "<group>"; };
+		7D57B1771B74AD450011FE73 /* JHCountryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHCountryView.m; sourceTree = "<group>"; };
+		7D57B1781B74AD450011FE73 /* JHCountryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHCountryView.xib; sourceTree = "<group>"; };
+		7D57B17A1B74AD450011FE73 /* NJCountry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJCountry.h; sourceTree = "<group>"; };
+		7D57B17B1B74AD450011FE73 /* NJCountry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJCountry.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +125,7 @@
 		7D57B1261B74A56B0011FE73 /* DatePick_PickViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				7D57B1511B74AC5D0011FE73 /* flagPickDemo */,
 				7D57B14D1B74A6C70011FE73 /* datePickDemo */,
 				7D57B12B1B74A56B0011FE73 /* AppDelegate.h */,
 				7D57B12C1B74A56B0011FE73 /* AppDelegate.m */,
@@ -100,6 +142,7 @@
 		7D57B1271B74A56B0011FE73 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7D57B1571B74AD170011FE73 /* guoqi */,
 				7D57B1281B74A56B0011FE73 /* Info.plist */,
 				7D57B1291B74A56B0011FE73 /* main.m */,
 			);
@@ -130,6 +173,42 @@
 				7D57B14F1B74A7000011FE73 /* DatePickViewController.m */,
 			);
 			path = datePickDemo;
+			sourceTree = "<group>";
+		};
+		7D57B1511B74AC5D0011FE73 /* flagPickDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7D57B1521B74ACBD0011FE73 /* flagPickViewController.h */,
+				7D57B1531B74ACBD0011FE73 /* flagPickViewController.m */,
+				7D57B1761B74AD450011FE73 /* JHCountryView.h */,
+				7D57B1771B74AD450011FE73 /* JHCountryView.m */,
+				7D57B1781B74AD450011FE73 /* JHCountryView.xib */,
+				7D57B17A1B74AD450011FE73 /* NJCountry.h */,
+				7D57B17B1B74AD450011FE73 /* NJCountry.m */,
+			);
+			path = flagPickDemo;
+			sourceTree = "<group>";
+		};
+		7D57B1571B74AD170011FE73 /* guoqi */ = {
+			isa = PBXGroup;
+			children = (
+				7D57B1581B74AD170011FE73 /* agt.gif */,
+				7D57B1591B74AD170011FE73 /* baxi.gif */,
+				7D57B15A1B74AD170011FE73 /* deguo.gif */,
+				7D57B15B1B74AD170011FE73 /* faguo.gif */,
+				7D57B15C1B74AD170011FE73 /* flags.plist */,
+				7D57B15D1B74AD170011FE73 /* hanguo.gif */,
+				7D57B15E1B74AD170011FE73 /* helan.gif */,
+				7D57B15F1B74AD170011FE73 /* putaoya.gif */,
+				7D57B1601B74AD170011FE73 /* ruidian.gif */,
+				7D57B1611B74AD170011FE73 /* ruishi.gif */,
+				7D57B1621B74AD170011FE73 /* wlgui.gif */,
+				7D57B1631B74AD170011FE73 /* xiby.gif */,
+				7D57B1641B74AD170011FE73 /* ydl.gif */,
+				7D57B1651B74AD170011FE73 /* ying.gif */,
+				7D57B1661B74AD170011FE73 /* zhongguo.jpg */,
+			);
+			path = guoqi;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,8 +292,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D57B1331B74A56B0011FE73 /* Main.storyboard in Resources */,
+				7D57B16C1B74AD170011FE73 /* hanguo.gif in Resources */,
+				7D57B1691B74AD170011FE73 /* deguo.gif in Resources */,
+				7D57B16D1B74AD170011FE73 /* helan.gif in Resources */,
+				7D57B1731B74AD170011FE73 /* ydl.gif in Resources */,
+				7D57B16B1B74AD170011FE73 /* flags.plist in Resources */,
 				7D57B1381B74A56B0011FE73 /* LaunchScreen.xib in Resources */,
+				7D57B1681B74AD170011FE73 /* baxi.gif in Resources */,
+				7D57B1751B74AD170011FE73 /* zhongguo.jpg in Resources */,
+				7D57B1721B74AD170011FE73 /* xiby.gif in Resources */,
+				7D57B1741B74AD170011FE73 /* ying.gif in Resources */,
+				7D57B1711B74AD170011FE73 /* wlgui.gif in Resources */,
+				7D57B16E1B74AD170011FE73 /* putaoya.gif in Resources */,
+				7D57B17D1B74AD450011FE73 /* JHCountryView.xib in Resources */,
+				7D57B16A1B74AD170011FE73 /* faguo.gif in Resources */,
 				7D57B1351B74A56B0011FE73 /* Images.xcassets in Resources */,
+				7D57B1671B74AD170011FE73 /* agt.gif in Resources */,
+				7D57B1701B74AD170011FE73 /* ruishi.gif in Resources */,
+				7D57B16F1B74AD170011FE73 /* ruidian.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +327,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D57B1541B74ACBD0011FE73 /* flagPickViewController.m in Sources */,
+				7D57B17C1B74AD450011FE73 /* JHCountryView.m in Sources */,
+				7D57B17F1B74AD450011FE73 /* NJCountry.m in Sources */,
 				7D57B1301B74A56B0011FE73 /* ViewController.m in Sources */,
 				7D57B12D1B74A56B0011FE73 /* AppDelegate.m in Sources */,
 				7D57B12A1B74A56B0011FE73 /* main.m in Sources */,
@@ -432,6 +530,7 @@
 				7D57B1491B74A56B0011FE73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7D57B14A1B74A56B0011FE73 /* Build configuration list for PBXNativeTarget "DatePick_PickViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -440,6 +539,7 @@
 				7D57B14C1B74A56B0011FE73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
