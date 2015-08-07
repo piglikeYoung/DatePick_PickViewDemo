@@ -159,10 +159,10 @@
             </objects>
             <point key="canvasLocation" x="1620" y="-21"/>
         </scene>
-        <!--View Controller-->
+        <!--City Select View Controller-->
         <scene sceneID="89U-p5-9oH">
             <objects>
-                <viewController id="ipO-g4-DiR" sceneMemberID="viewController">
+                <viewController id="ipO-g4-DiR" customClass="CitySelectViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="zRJ-uc-rPa"/>
                         <viewControllerLayoutGuide type="bottom" id="Zeq-L2-47t"/>

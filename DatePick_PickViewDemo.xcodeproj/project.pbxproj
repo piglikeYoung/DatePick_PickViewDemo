@@ -34,6 +34,9 @@
 		7D57B17C1B74AD450011FE73 /* JHCountryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D57B1771B74AD450011FE73 /* JHCountryView.m */; };
 		7D57B17D1B74AD450011FE73 /* JHCountryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D57B1781B74AD450011FE73 /* JHCountryView.xib */; };
 		7D57B17F1B74AD450011FE73 /* NJCountry.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D57B17B1B74AD450011FE73 /* NJCountry.m */; };
+		7DE4636F1B74AF7E0031525B /* cities.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7DE4636E1B74AF7E0031525B /* cities.plist */; };
+		7DE463721B74AF920031525B /* CitySelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE463711B74AF920031525B /* CitySelectViewController.m */; };
+		7DE463751B74AFA00031525B /* JHProvince.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE463741B74AFA00031525B /* JHProvince.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +87,11 @@
 		7D57B1781B74AD450011FE73 /* JHCountryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHCountryView.xib; sourceTree = "<group>"; };
 		7D57B17A1B74AD450011FE73 /* NJCountry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJCountry.h; sourceTree = "<group>"; };
 		7D57B17B1B74AD450011FE73 /* NJCountry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJCountry.m; sourceTree = "<group>"; };
+		7DE4636E1B74AF7E0031525B /* cities.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cities.plist; sourceTree = "<group>"; };
+		7DE463701B74AF920031525B /* CitySelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CitySelectViewController.h; sourceTree = "<group>"; };
+		7DE463711B74AF920031525B /* CitySelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CitySelectViewController.m; sourceTree = "<group>"; };
+		7DE463731B74AFA00031525B /* JHProvince.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHProvince.h; sourceTree = "<group>"; };
+		7DE463741B74AFA00031525B /* JHProvince.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHProvince.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +133,7 @@
 		7D57B1261B74A56B0011FE73 /* DatePick_PickViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				7DE4636D1B74AF360031525B /* CitySelectDemo */,
 				7D57B1511B74AC5D0011FE73 /* flagPickDemo */,
 				7D57B14D1B74A6C70011FE73 /* datePickDemo */,
 				7D57B12B1B74A56B0011FE73 /* AppDelegate.h */,
@@ -143,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				7D57B1571B74AD170011FE73 /* guoqi */,
+				7DE4636E1B74AF7E0031525B /* cities.plist */,
 				7D57B1281B74A56B0011FE73 /* Info.plist */,
 				7D57B1291B74A56B0011FE73 /* main.m */,
 			);
@@ -209,6 +219,17 @@
 				7D57B1661B74AD170011FE73 /* zhongguo.jpg */,
 			);
 			path = guoqi;
+			sourceTree = "<group>";
+		};
+		7DE4636D1B74AF360031525B /* CitySelectDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7DE463701B74AF920031525B /* CitySelectViewController.h */,
+				7DE463711B74AF920031525B /* CitySelectViewController.m */,
+				7DE463731B74AFA00031525B /* JHProvince.h */,
+				7DE463741B74AFA00031525B /* JHProvince.m */,
+			);
+			path = CitySelectDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,6 +315,7 @@
 				7D57B1331B74A56B0011FE73 /* Main.storyboard in Resources */,
 				7D57B16C1B74AD170011FE73 /* hanguo.gif in Resources */,
 				7D57B1691B74AD170011FE73 /* deguo.gif in Resources */,
+				7DE4636F1B74AF7E0031525B /* cities.plist in Resources */,
 				7D57B16D1B74AD170011FE73 /* helan.gif in Resources */,
 				7D57B1731B74AD170011FE73 /* ydl.gif in Resources */,
 				7D57B16B1B74AD170011FE73 /* flags.plist in Resources */,
@@ -332,7 +354,9 @@
 				7D57B17F1B74AD450011FE73 /* NJCountry.m in Sources */,
 				7D57B1301B74A56B0011FE73 /* ViewController.m in Sources */,
 				7D57B12D1B74A56B0011FE73 /* AppDelegate.m in Sources */,
+				7DE463721B74AF920031525B /* CitySelectViewController.m in Sources */,
 				7D57B12A1B74A56B0011FE73 /* main.m in Sources */,
+				7DE463751B74AFA00031525B /* JHProvince.m in Sources */,
 				7D57B1501B74A7000011FE73 /* DatePickViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
