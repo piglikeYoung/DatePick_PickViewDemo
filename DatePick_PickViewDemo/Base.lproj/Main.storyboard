@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="5Ub-ee-lIp">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--选择-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +16,168 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GJs-W0-BzO">
+                                <rect key="frame" x="249" y="148" width="101" height="30"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="datePickDemo">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="nzf-BM-fN9" kind="show" id="K0U-iz-TSh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vZs-dJ-iIv">
+                                <rect key="frame" x="246" y="208" width="109" height="30"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="flagSelectDemo">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="zHE-MD-CLW" kind="show" id="KXL-Rm-aPO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zi5-Ux-gPi">
+                                <rect key="frame" x="246" y="268" width="108" height="30"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="citySelectDemo">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ipO-g4-DiR" kind="show" id="zZj-Jg-WOz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RL0-1w-msD">
+                                <rect key="frame" x="223" y="328" width="154" height="30"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="menuPickerViewDemo">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Hn3-BA-ZQ2" kind="show" id="Zg7-ZF-XPJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="zi5-Ux-gPi" firstAttribute="top" secondItem="vZs-dJ-iIv" secondAttribute="bottom" constant="30" id="7ak-Wx-UZk"/>
+                            <constraint firstAttribute="centerX" secondItem="zi5-Ux-gPi" secondAttribute="centerX" id="E2A-vI-BZT"/>
+                            <constraint firstItem="vZs-dJ-iIv" firstAttribute="top" secondItem="GJs-W0-BzO" secondAttribute="bottom" constant="30" id="EPs-JZ-rCS"/>
+                            <constraint firstItem="GJs-W0-BzO" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="84" id="XXQ-1i-ECX"/>
+                            <constraint firstAttribute="centerX" secondItem="GJs-W0-BzO" secondAttribute="centerX" id="k9S-Sd-cOn"/>
+                            <constraint firstAttribute="centerX" secondItem="RL0-1w-msD" secondAttribute="centerX" id="swE-CI-dTu"/>
+                            <constraint firstItem="RL0-1w-msD" firstAttribute="top" secondItem="zi5-Ux-gPi" secondAttribute="bottom" constant="30" id="tMa-rp-SBQ"/>
+                            <constraint firstAttribute="centerX" secondItem="vZs-dJ-iIv" secondAttribute="centerX" id="xCl-I7-ppb"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="选择" id="8ng-O8-kvZ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="969" y="-326"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="QD2-dW-7yV">
+            <objects>
+                <viewController id="Hn3-BA-ZQ2" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yWZ-lR-qtU"/>
+                        <viewControllerLayoutGuide type="bottom" id="jCr-CB-uMR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jLV-yd-a04">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="265-Lz-1CN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="969" y="378"/>
+        </scene>
+        <!--Date Pick View Controller-->
+        <scene sceneID="nyG-ZO-UGq">
+            <objects>
+                <viewController id="nzf-BM-fN9" customClass="DatePickViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="N1W-9R-aGb"/>
+                        <viewControllerLayoutGuide type="bottom" id="yPg-75-yhW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0fp-Ju-1De">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="K2n-p5-CVj">
+                                <rect key="frame" x="46" y="120" width="508" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="K2n-p5-CVj" firstAttribute="top" secondItem="0fp-Ju-1De" secondAttribute="topMargin" constant="120" id="6HG-5A-ycc"/>
+                            <constraint firstItem="K2n-p5-CVj" firstAttribute="leading" secondItem="0fp-Ju-1De" secondAttribute="leadingMargin" constant="30" id="Ny2-Kl-ivv"/>
+                            <constraint firstAttribute="centerX" secondItem="K2n-p5-CVj" secondAttribute="centerX" id="eHa-j7-M7d"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="K2n-p5-CVj" secondAttribute="trailing" constant="30" id="thA-71-3q2"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oEN-KJ-S4G" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1620" y="-689"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="NKd-u7-ojV">
+            <objects>
+                <viewController id="zHE-MD-CLW" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="k3g-PN-GOw"/>
+                        <viewControllerLayoutGuide type="bottom" id="R1X-Q1-2OZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="KG3-Tb-LIs">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6gb-em-lNH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1620" y="-21"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="89U-p5-9oH">
+            <objects>
+                <viewController id="ipO-g4-DiR" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zRJ-uc-rPa"/>
+                        <viewControllerLayoutGuide type="bottom" id="Zeq-L2-47t"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lji-aI-OLo">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wo9-8Z-Szc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1610" y="620"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="YFT-fr-fXR">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5Ub-ee-lIp" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="S53-VS-WCs">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="XEq-au-b9H"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zPH-RV-ztF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="232" y="-326"/>
         </scene>
     </scenes>
 </document>

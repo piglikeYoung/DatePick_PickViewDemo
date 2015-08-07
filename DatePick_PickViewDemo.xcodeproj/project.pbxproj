@@ -14,6 +14,7 @@
 		7D57B1351B74A56B0011FE73 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D57B1341B74A56B0011FE73 /* Images.xcassets */; };
 		7D57B1381B74A56B0011FE73 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D57B1361B74A56B0011FE73 /* LaunchScreen.xib */; };
 		7D57B1441B74A56B0011FE73 /* DatePick_PickViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D57B1431B74A56B0011FE73 /* DatePick_PickViewDemoTests.m */; };
+		7D57B1501B74A7000011FE73 /* DatePickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D57B14F1B74A7000011FE73 /* DatePickViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		7D57B13D1B74A56B0011FE73 /* DatePick_PickViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DatePick_PickViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D57B1421B74A56B0011FE73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D57B1431B74A56B0011FE73 /* DatePick_PickViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DatePick_PickViewDemoTests.m; sourceTree = "<group>"; };
+		7D57B14E1B74A7000011FE73 /* DatePickViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePickViewController.h; sourceTree = "<group>"; };
+		7D57B14F1B74A7000011FE73 /* DatePickViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePickViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		7D57B1261B74A56B0011FE73 /* DatePick_PickViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				7D57B14D1B74A6C70011FE73 /* datePickDemo */,
 				7D57B12B1B74A56B0011FE73 /* AppDelegate.h */,
 				7D57B12C1B74A56B0011FE73 /* AppDelegate.m */,
 				7D57B12E1B74A56B0011FE73 /* ViewController.h */,
@@ -117,6 +121,15 @@
 				7D57B1421B74A56B0011FE73 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7D57B14D1B74A6C70011FE73 /* datePickDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7D57B14E1B74A7000011FE73 /* DatePickViewController.h */,
+				7D57B14F1B74A7000011FE73 /* DatePickViewController.m */,
+			);
+			path = datePickDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +235,7 @@
 				7D57B1301B74A56B0011FE73 /* ViewController.m in Sources */,
 				7D57B12D1B74A56B0011FE73 /* AppDelegate.m in Sources */,
 				7D57B12A1B74A56B0011FE73 /* main.m in Sources */,
+				7D57B1501B74A7000011FE73 /* DatePickViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
